@@ -982,3 +982,5 @@ a#totop:hover:before {
     width: 31%;
   }
 }
+a[href^="http"]:not(.btn) { color: #0933b1; }
+a[href^="http"]:not(.btn):hover { color: #0933b1; }
