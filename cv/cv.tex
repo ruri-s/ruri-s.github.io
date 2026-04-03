@@ -1,0 +1,182 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+% 汎用的なフォントパッケージ
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} 
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% 余白の最適化
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% --- 見出し（section）をゴシック・太字にし、下線を引く ---
+\titleformat{\section}{
+  \sffamily\Large\bfseries\vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% --- 小見出し（subsection）もゴシック・太字にする ---
+\titleformat{\subsection}{
+  \sffamily\large\bfseries\vspace{2pt}
+}{}{0em}{}
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%-----------HEADER-----------
+\begin{center}
+    {\sffamily\Huge\bfseries Ruri Sase} \\ \vspace{5pt}
+    \small{School of Engineering, Kochi University of Technology} \\
+    \small{E-mail: \href{mailto:296005z@gs.kochi-tech.ac.jp}{\color{blue}296005z@gs.kochi-tech.ac.jp} $|$ Web: \href{https://ruri-s.github.io/}{\color{blue}https://ruri-s.github.io/}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Doctoral student in Civil engineering}{Apr. 2025 -- Present}
+      {Kochi University of Technology (Supervisor: Prof. Satoshi Sugiura)}{Kochi, Japan}
+    \resumeSubheading
+      {M.S. in Civil engineering}{Apr. 2023 -- Mar. 2025}
+      {Hokkaido University (Supervisor: Prof. Satoshi Sugiura)}{Hokkaido, Japan}
+    \resumeSubheading
+      {B.S. in Civil engineering}{Apr. 2019 -- Mar. 2023}
+      {Hokkaido University}{Hokkaido, Japan}
+\resumeSubHeadingListEnd
+
+%-----------APPOINTMENTS-----------
+\section{Appointments}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Fellowship for Young Scientist (DC1)}{Apr. 2025 -- Present}
+      {Japan Society for the Promotion of Science (JSPS)}{}
+\resumeSubHeadingListEnd
+
+%-----------RESEARCH AREAS-----------
+\section{Research Keywords}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    transportation network analysis, connectivity, graph theory, optimization
+    }}
+\end{itemize}
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+
+\subsection*{Journal Articles}
+\begin{enumerate}[leftmargin=0.3in, label=\arabic*.]
+    \small{
+    \item Ruri Sase, Satoshi Sugiura, Empirical analysis of cut-based approach for screen-line traffic counting location problem with pre-installed sensors, \textit{International Journal of Intelligent Transportation Systems Research}, 2025.
+    \item Ruri Sase, Satoshi Sugiura, and Anthony Chen, Optimized graph-cut approach for the screen-line traffic counting location problem: An exact and efficient solution method, \textit{Expert Systems with Applications}, 2025.
+    \item Ruri Sase, Satoshi Sugiura, Inbound traffic capture link-design problem independent of assumptions on users’ route choices, \textit{EURO Journal on Transportation and Logistics}, 2024.
+    }
+\end{enumerate}
+
+\subsection*{Preprints}
+\begin{enumerate}[leftmargin=0.3in, label=\arabic*.]
+    \small{
+    \item Ruri Sase, Satoshi Sugiura and Fumitaka Kurauchi, A novel zone-cut-based network representation framework for a robust origin-destination trip matrix estimation, 2026.
+    }
+\end{enumerate}
+
+%-----------CONFERENCE PRESENTATIONS-----------
+\section{Conference Presentations}
+\subsection*{International Conference Presentations}
+\begin{enumerate}[leftmargin=0.3in, label=\arabic*.]
+    \small{
+    \item Toshiki Arai, Ruri Sase, Satoshi Sugiura, Hiroaki Nishiuchi: The screen-line traffic counting location problem under observation uncertainty, \textit{12th International Symposium on Travel Demand Management (TDM)}, Sydney, Australia, December 2025.
+    \item Ruri Sase, Satoshi Sugiura, Fumitaka Kurauchi: Zone-cut based approach for path-independent OD trip matrix estimation, \textit{12th International Symposium on Travel Demand Management (TDM)}, Sydney, Australia, December 2025.
+    \item Ruri Sase, Satoshi Sugiura: Excess-demand isolation vulnerability analysis based on a bipartitioning minimum cut, \textit{The 12th Triennial Symposium on Transportation Analysis conference (TRISTAN)}, Okinawa, Japan, June 2025.
+    \item Ruri Sase, Satoshi Sugiura: O/D cut optimization for traffic sensor location problem, \textit{The 27th International Conference of Hong Kong Society for Transportation Studies (HKSTS)}, Hong Kong, December 2023.
+    \item Ruri Sase, Satoshi Sugiura: Inflow Traffic to a Specific Community Capturing Link Design Problem Independent of User Routing Assumptions, \textit{The 15th international conference of the eastern asia society for transportation studies (EASTS)}, Shah Alam, Malaysia, September 2023.
+    }
+\end{enumerate}
+
+\subsection*{Non-Refereed Conference Presentations in Japanese}
+\begin{enumerate}[leftmargin=0.3in, label=\arabic*.]
+    \small{
+    \item Ruri Sase, Satoshi Sugiura: Empirical analysis of cut-based approach for screen-line traffic counting location problem with pre-installed sensors, \textit{23rd ITS Symposium 2025}, International Conference Center Hiroshima, Hiroshima, Japan, December 2025.
+    \item Ruri Sase, Satoshi Sugiura: Analysis of link traffic counting location on actual road networks based on screen-line traffic counting location problem, \textit{The 71st JSCE Conference of Infrastructure Planning and Management}, Kagawa University, Kagawa, Japan, June 2025.
+    \item Kyo Fujita, Satoshi Sugiura, Ruri Sase: Analysis of the effect of transport network improvement on the optimal road restoration design problem to minimise cumulative isolated duration, \textit{The 71st JSCE Conference of Infrastructure Planning and Management}, Kagawa University, Kagawa, Japan, June 2025.
+    \item Ruri Sase, Satoshi Sugiura, Fumitaka Kurauchi: Zone-cut based OD trip table estimation with vehicle trajectories, \textit{The 70th JSCE Conference of Infrastructure Planning and Management }, Okayama University, Okayama, Japan, November 2024.
+    \item Ruri Sase, Satoshi Sugiura: Location-based vulnerability analysis: Identifying critical links that cause simultanious isolation, \textit{The 69th JSCE Conference of Infrastructure Planning and Management}, Hokkaido University, Hokkaido, Japan, May 2024.
+    \item Satoshi Sugiura, Ruri Sase: Road network restoration optimization problem to minimize cumulative isolated days \textit{The 69th JSCE Conference of Infrastructure Planning and Management}, Hokkaido University, Hokkaido, Japan, May 2024.
+    \item Ruri Sase, Satoshi Sugiura: Day-to-day O/D trip estimation based on road network topology and observable traﬃc flow data, \textit{The 68th JSCE Conference of Infrastructure Planning and Management}, Tokyo Metropolitan University, Tokyo, Japan, November 2023.
+    \item Ruri Sase, Satoshi Sugiura: Inflow traffic capturing link design problem to specific communities independent of route choice assumptions, \textit{Japan Society of Civil Engineers Hokkaido Branch 2022 Annual Meeting}, Sapporo, Hokkaido, Japan, January 2023.
+    }
+\end{enumerate}
+
+%-----------GRANTS AND AWARDS-----------
+\section{Grants and Awards}
+\subsection*{Grants and Fellowships}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {JSPS Grant-in-Aid for JSPS Research Fellows (25KJ2046)}{2025 -- Present}
+    {JSPS KAKENHI (Principal Investigator)}{}
+    \resumeSubheading
+    {Repayment Exemption for Particularly Outstanding Achievement (Full Exemption)}{Jul. 2025}
+    {Japan Student Services Organization (JASSO)}{}
+    \resumeSubheading
+    {Hokkaido University Mirai IT Talent Scholarship}{Apr. 2024 -- Mar. 2025}
+    {NITORI International Scholarship Foundation, Japan}{}
+\resumeSubHeadingListEnd
+
+\subsection*{Awards}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Best Poster Award}{Dec. 2025}
+    {23rd ITS Symposium 2025, ITS Japan}{}
+    \resumeSubheading
+    {Encouragement Research Award for Students, The 7th Re-design Research Award}{Dec. 2025}
+    {Urban Re-design Design Studies Unit, Japan}{}
+    \resumeSubheading
+    {Best Master's Student Award in Civil Engineering}{Mar. 2025}
+    {Division of Field Engineering for the Environment, Hokkaido University, Japan}{}
+    \resumeSubheading
+    {Outstanding Poster Award}{May 2024}
+    {JSCE Committee on Infrastructure Planning and Management, Japan}{}
+\resumeSubHeadingListEnd
+
+\end{document}
