@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1775196586.78451 "/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex" "out/cv.pdf" "cv" 1775196587.17676 0
-  "/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex" 1775196586.68922 9300 1c74dfadd84f8aca68f429ee463793fe ""
+["pdflatex"] 1775711267.74407 "/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex" "out/cv.pdf" "cv" 1775711268.12691 0
+  "/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex" 1775711267.58204 9313 ed6055456521e7d0ab265ca6dfe41eaa ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -105,9 +105,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748482830 5523539 cbe340ff87ac4cfddcdc6361a84e52ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748482952 3568619 999a170d062fe803f09464f67ba2b246 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "cv.tex" 1775196586.68922 9300 1c74dfadd84f8aca68f429ee463793fe ""
-  "out/cv.aux" 1775196587.14036 953 bdd188665c51458932314619ec1e9397 "pdflatex"
-  "out/cv.out" 1775196587.14068 725 a9851280f2209152ac848206490a7716 "pdflatex"
+  "cv.tex" 1775711267.58204 9313 ed6055456521e7d0ab265ca6dfe41eaa ""
+  "out/cv.aux" 1775711268.0905 953 bdd188665c51458932314619ec1e9397 "pdflatex"
+  "out/cv.out" 1775711268.09081 725 a9851280f2209152ac848206490a7716 "pdflatex"
   (generated)
   "out/cv.aux"
   "out/cv.log"
