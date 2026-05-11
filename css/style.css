@@ -984,3 +984,49 @@ a#totop:hover:before {
 }
 a[href^="http"]:not(.btn) { color: #0933b1; }
 a[href^="http"]:not(.btn):hover { color: #0933b1; }
+
+/* ==========================================
+   スマートフォン向けスタイル（〜767px）
+   ========================================== */
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 26px;
+  }
+  h2:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin: 8px auto 20px;
+  }
+  h3 {
+    font-size: 18px;
+    margin: 1.2em 0 0.6em;
+  }
+  h4 {
+    font-size: 15px;
+    margin: 1em 0 0.4em;
+  }
+  /* dd のブラウザデフォルト左マージンをリセット */
+  dd {
+    margin-inline-start: 0;
+  }
+  /* プロフィール・業績リストのフォントサイズと行間 */
+  dl.profile dd,
+  dl.profile ol li,
+  dl.achievement ol li {
+    font-size: 14px;
+    line-height: 1.85;
+    margin-bottom: 0.7em;
+  }
+  /* ol の数字が padding:0 リセットで見切れないよう確保 */
+  dl.profile ol,
+  dl.achievement ol {
+    padding-left: 1.6em;
+  }
+  /* セクション内の余白をやや広げて読みやすく */
+  section {
+    padding: 40px 0;
+  }
+}
