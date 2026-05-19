@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.29)  10 APR 2026 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.29)  19 MAY 2026 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex
-(/Users/rurisase/Documents/ruri-s.github.io/cv/cv.tex
+**/Users/rurisase/Documents/ruri-s.github.io/cv/cv_en.tex
+(/Users/rurisase/Documents/ruri-s.github.io/cv/cv_en.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -345,8 +345,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
-) (out/cv.aux)
-\openout1 = `cv.aux'.
+) (out/cv_en.aux)
+\openout1 = `cv_en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -381,9 +381,9 @@ LaTeX Font Info:    ... okay on input line 66.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 66.
-(out/cv.out) (out/cv.out)
+(out/cv_en.out) (out/cv_en.out)
 \@outlinefile=\write3
-\openout3 = `cv.out'.
+\openout3 = `cv_en.out'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 70.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -427,27 +427,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
-[2] (out/cv.aux)
+[2] (out/cv_en.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package rerunfilecheck Info: File `cv.out' has not changed.
+Package rerunfilecheck Info: File `cv_en.out' has not changed.
 (rerunfilecheck)             Checksum: A9851280F2209152AC848206490A7716;725.
  ) 
 Here is how much of TeX's memory you used:
  11436 strings out of 469590
- 180349 string characters out of 5470340
- 598379 words of memory out of 5000000
+ 180406 string characters out of 5470340
+ 598394 words of memory out of 5000000
  38104 multiletter control sequences out of 15000+600000
  687269 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,398b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,401b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on out/cv.pdf (2 pages, 126970 bytes).
+Output written on out/cv_en.pdf (2 pages, 127117 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  26 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
